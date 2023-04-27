@@ -1,0 +1,32 @@
+.featured{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1030px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    gap: 50px;
+  }
+  
+.item{
+position: relative;
+text-shadow: -1px 0 rgb(150, 11, 11), 0 2px rgb(150, 11, 11), 2px 0 rgb(150, 11, 11), 0 -1px rgb(150, 11, 11);
+color: rgb(255, 228, 159);
+border-radius: 10px;
+overflow: hidden;
+height: 250px;
+flex:1
+}
+
+.Fimg{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.featuredTitle{
+position: absolute;
+top:10px;
+left: 20px;
+}

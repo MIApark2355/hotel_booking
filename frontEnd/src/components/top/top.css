@@ -1,0 +1,65 @@
+.top{
+    justify-content: center;
+}
+
+.topHalf{
+    background-color: darkgoldenrod;
+    height : 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.topCtn{
+    color:brown;
+    width: 100%;
+    height: 80%;
+    max-width: 1100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.topItems{
+    display: flex;
+}
+.topCtn .listMode{
+    color:brown;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+.title{
+    cursor:pointer;
+    font-weight:bolder;
+    font-size:30px;
+}
+
+.topRightItems{
+    flex: 2;
+    height: 80%;
+    color:brown;
+}
+
+.helloTxt{
+    color:brown;
+    font-weight:bolder;
+}
+
+.topBtn{
+    margin-left: 10px;
+    margin-right: 50px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: brown;
+    border-radius: 10px;
+}
+
+.bottomHalf{
+    margin-left: 10px;
+    margin-right: 50px;
+}

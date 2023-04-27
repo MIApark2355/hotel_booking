@@ -1,0 +1,54 @@
+.body{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+
+.all{
+    justify-content: center;
+}
+
+.tabs{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    
+}
+
+.booked{
+    border:2px solid goldenrod;
+    padding: 10px;
+    font-size:20px;
+    margin-right: 110px;
+    color: brown;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.saved{
+    border:2px solid goldenrod;
+    padding: 10px;
+    font-size:20px;
+    color: brown;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.nameCtn{
+    background-color: brown;
+    border-color:2px solid goldenrod;
+    height: 80%;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:30px;
+}
+
+.listHeading{
+    padding: 10px;
+    color:goldenrod;
+    text-align: center;
+    font-weight:bolder;
+}

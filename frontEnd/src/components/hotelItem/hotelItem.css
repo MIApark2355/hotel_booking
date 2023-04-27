@@ -1,0 +1,77 @@
+.hotelItem {
+  border: 1px solid brown;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.hotelImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotelTxt1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.hotelName {
+  font-size: 20px;
+  color: rgb(133, 0, 0);
+}
+
+.hotelTxt2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.hotelRating>span{
+  font-weight: 500;
+}
+.hotelRating>button{
+ background-color: darkslategray;
+ color: white;
+ padding: 5px;
+ margin-left: 20px;
+ font-weight: bold;
+ border: none;
+}
+
+.hotelDetail{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Price{
+  font-size: 30px;
+}
+
+.saveBtn{
+  background-color: darkslategray;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bookBtn{
+  background-color: darkslategray;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
